@@ -62,7 +62,7 @@ let looper = () => {
   if (detectarChoque()) {
     //pongo en false el juego
     seteos.jugando = false;
-    alert("GAME OVER SCORE: " + seteos.score);
+    alert("FIN DEL JUEGO SCORE: " + seteos.score);
 
     //llamo a reiniciar parametros (se agrego boton reiniciar)
     reiniciar();
